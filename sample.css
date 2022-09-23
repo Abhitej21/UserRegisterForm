@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.user{
+    color: #FFA500;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Verdana";
+
+}
+.inp{
+    margin-top: 15px;
+}
+.phn{
+    font-family: "Verdana";
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.but{
+    background-color: #FFA500;
+    color: white;
+    width: 90%;
+    padding: 8px;
+    border-width: 0;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Phone{
+    border: none;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    width: 90%;
+    margin-top: 5px;
+}
+.back{
+    width: 70%;
+    padding: 20px;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+}
